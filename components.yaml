@@ -1,0 +1,30 @@
+schema_version: 1
+
+repositories:
+  - id: function-calling-post-training
+    url: https://github.com/OpenEuroLLM/function-calling-post-training
+    status: public
+    refs:
+      active_qwen35_branch: codex/qwen35-causal-suite
+      olmo3_historical_branch: olmo3-phase2
+      olmo3_result_tag: olmo3-five-source-result-v1
+
+  - id: bfcl
+    url: https://github.com/OpenEuroLLM/bfcl
+    status: public
+
+  - id: tau2-bench
+    url: https://github.com/OpenEuroLLM/tau2-bench
+    status: public
+
+  - id: tmax-reproduction
+    status: planned
+
+artifacts:
+  - id: olmo3-five-source-model
+    host: https://huggingface.co/OpenEuroLLM
+    status: planned
+
+  - id: processed-five-source-dataset
+    host: https://huggingface.co/OpenEuroLLM
+    status: planned
