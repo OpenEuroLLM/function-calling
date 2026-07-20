@@ -16,7 +16,7 @@ This repository is the public index for OpenEuroLLM function-calling post-traini
 
 ## Planned releases
 
-- The OLMo 3 function-calling checkpoint in the [OpenEuroLLM Hugging Face organization](https://huggingface.co/OpenEuroLLM)
+- The OLMo 3 function-calling checkpoint in the [OpenEuroLLM Hugging Face organization](https://huggingface.co/openeurollm)
 - The processed five-source training dataset in the OpenEuroLLM Hugging Face organization
 
 Machine-local evaluation harnesses, operational records, and private research material are outside the scope of this public index.

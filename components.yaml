@@ -26,9 +26,9 @@ repositories:
 
 artifacts:
   - id: olmo3-five-source-model
-    host: https://huggingface.co/OpenEuroLLM
+    host: https://huggingface.co/openeurollm
     status: planned
 
   - id: processed-five-source-dataset
-    host: https://huggingface.co/OpenEuroLLM
+    host: https://huggingface.co/openeurollm
     status: planned
