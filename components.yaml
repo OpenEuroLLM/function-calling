@@ -18,7 +18,11 @@ repositories:
     status: public
 
   - id: tmax-reproduction
-    status: planned
+    url: https://github.com/OpenEuroLLM/tmax-reproduction
+    status: public-wip
+    refs:
+      upstream_tmax_tag: tmax-upstream-1cce58a2
+      leonardo_prepared_state_tag: leonardo-prepared-apptainer-wip-20260720
 
 artifacts:
   - id: olmo3-five-source-model
